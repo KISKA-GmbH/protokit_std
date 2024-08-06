@@ -18,3 +18,4 @@ void OnButtonRegister::onButtonEvent(ArduinoButton *button, TriggerType event) {
 OnButtonRegister::~OnButtonRegister() {
     button.removeReceiver(this);
 }
+
